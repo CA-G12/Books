@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300&family=Cairo&family=Charis+SIL&family=Cormorant:wght@300&family=Dancing+Script&family=Montserrat:ital,wght@0,400;1,300&family=Nuosu+SIL&family=Oswald:wght@300;500&family=Rubik:wght@300&family=Staatliches&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  background-image: url("../../assert/img/background.jpg");
+  object-fit: contain;
+  background-size: cover;
+  width: 100%;
+}
+h1 {
+  font-size: 6.5em;
+  text-align: center;
+  color: white;
+  letter-spacing: 0.4em;
+  margin-top: 10%;
+  font-family: "Cairo", sans-serif;
+}
+#searchiput {
+  width: 40%;
+  height: 50px;
+  margin-top: 2%;
+  margin-left: 28%;
+  background-color: rgba(155, 137, 125, 0.342);
+  border-radius: 25px;
+  outline: none;
+  border: 0.1em solid white;
+  padding: 25px;
+  font-size: 2em;
+}
+#searchDiv {
+  position: relative;
+}
+#searchDiv button {
+  position: absolute;
+  left: 63%;
+  width: 5em;
+  top: 39%;
+  background-color: rgba(155, 137, 125, 0.541);
+  border: none;
+  border-radius: 25px;
+  height: 50px;
+  outline: none;
+  
+}
+.fa-magnifying-glass:before, .fa-search:before {
+    content: "\f002";
+    color: white;
+}
+
