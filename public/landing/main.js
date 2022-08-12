@@ -1,8 +1,9 @@
+/* eslint-disable no-undef */
 const searchInput = document.getElementById('searchiput');
-const searchForm = document.getElementById('searchForm');
+const searchSub = document.getElementById('searchSub');
 
-searchForm.addEventListener('click', (event)=>{
-    event.preventDefault()
-    const fetchApi=`https://www.googleapis.com/books/v1/volumes?q=${searchInput}&maxResults=40`
-
-})
+searchSub.addEventListener('click', (event) => {
+  event.preventDefault();
+  fetchSender('GET', `Books?q=${searchInput.value}`);
+  window.location.href = `Books?q=${searchInput.value}`;
+});
