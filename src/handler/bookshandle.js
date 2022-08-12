@@ -1,34 +1,17 @@
 const path = require('path');
 const fs = require('fs');
+const mime = require('mime-types');
 
 const booksHandler = (req, res, endpoint) => {
-  let allStreams = '';
-  req.on('data', (stream) => {
-    allStreams += stream;
-  });
-  req.on('end', (err) => {
+  const filePath = path.join(__dirname, '..', '..', 'public', 'Books', endpoint);
+  const extention = path.extname(filePath);
+  fs.readFile(filePath, (err, data) => {
     if (err) {
       res.end('Notfound', err);
     } else {
-      const searchData = new URLSearchParams(allStreams);
-      const inputvalue = searchData.get('seaechBook');
-      const filePath = path.join(
-        __dirname,
-        '..',
-        '..',
-        'public',
-        'Books',
-        'index.html',
-      );
-      fs.readFile(filePath, (err, data) => {
-        if (err) {
-          res.end('Notfound', err);
-        } else {
-          res.writeHead(200, { 'Content-Type': 'text/html' });
-          res.write(data);
-          res.end();
-        }
-      });
+      res.writeHeader(200, { 'Content-Type': mime.lookup(extention) });
+      res.write(data);
+      res.end();
     }
   });
 };
