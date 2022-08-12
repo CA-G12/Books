@@ -25,15 +25,26 @@ const router = (req, res) => {
     && method === 'GET' && (endpoint.includes('landing') || endpoint.includes('assert'))
   ) {
     indexhandler(res, endpoint);
-  } else if (endpoint.includes('/Books') && method === 'POST') {
-    booksHandler(req, res, endpoint);
-  } else if (endpoint.includes('main') && method === 'GET') {
-    filePath = path.join(__dirname, '..', 'public', 'Books', endpoint);
+  } else if (endpoint.includes('/Books') && method === 'GET') {
+    filePath = path.join(__dirname, '..', 'public', 'Books', 'index.html');
     fs.readFile(filePath, (err, data) => {
       if (err) {
         res.end('Notfound', err);
       } else {
         res.writeHeader(200, { 'Content-Type': 'text/html' });
+        res.write(data);
+        res.end();
+      }
+    });
+  } else if ((endpoint.includes('mainBooks') || endpoint.includes('books')) && method === 'GET') {
+    booksHandler(req, res, endpoint);
+  } else if (endpoint.includes('fetch')) {
+    filePath = path.join(__dirname, '..', 'public', 'fetch.js');
+    fs.readFile(filePath, (err, data) => {
+      if (err) {
+        res.end('Notfound', err);
+      } else {
+        res.writeHeader(200, { 'Content-Type': 'text/javascript' });
         res.write(data);
         res.end();
       }
