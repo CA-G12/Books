@@ -1,4 +1,5 @@
-const fetch = (func, endPoint, cb, dataToSend) => {
+/* eslint-disable no-unused-vars */
+function fetch(func, endPoint, cb, dataToSend) {
   const xhr = new XMLHttpRequest();
 
   xhr.onreadystatechange = () => {
@@ -13,4 +14,9 @@ const fetch = (func, endPoint, cb, dataToSend) => {
   };
   xhr.open(func, endPoint, true);
   xhr.send(dataToSend);
-};
+}
+function fetchSender(method, endPoint) {
+  const xhr = new XMLHttpRequest();
+  xhr.open(method, endPoint, true);
+  xhr.send();
+}
