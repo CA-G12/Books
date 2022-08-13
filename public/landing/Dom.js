@@ -3,7 +3,11 @@ const suggestionsList = document.querySelector('ul');
 
 const renderNode = (node) => {
   const span = document.createElement('span');
-  span.innerText = node;
+  let text = node;
+  if (node.length > 40) {
+    text = `${node.slice(0, 35)} ...`;
+  }
+  span.innerText = text;
   const div = document.createElement('div');
   div.append(span);
   const li = document.createElement('li');
