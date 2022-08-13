@@ -1,44 +1,10 @@
-
-const ele = document.querySelector('#searchiput');
-
-const fetch = (title,cb) => {
-  const xhr = new XMLHttpRequest();
- 
-  xhr.onreadystatechange = () => {
-    if (xhr.readyState === 4) {
-      if (xhr.status === 200) {
-        const data = JSON.parse(xhr.responseText);
-        /* for (let blogPost in data) {
-                     const postDiv = document.createElement('div');
-                     const postText = document.createElement('p');
-                     const thumbnail = document.createElement('img');
-                     const postContainer = document.getElementsByClassName(
-                         'post-container'
-                     )[0];
-                     thumbnail.src = './public/img/logo2.png';
-                     thumbnail.className = 'thumbnail';
-                     postText.innerHTML = data[blogPost];
-                     postDiv.className = 'post';
-                     postDiv.appendChild(thumbnail);
-                     postDiv.appendChild(postText);
-                     postContainer.appendChild(postDiv);
- */
-        cb(data);
-      } else {
-        console.error(xhr.responseText);
-      }
-    }
-  };
-  xhr.open('POST', '/suggestions', true);
-  xhr.send(`title=${title}`);
- 
-};
-
-ele.addEventListener('keyup', (event) => {
-  if ((event.keyCode >= 65 && event.keyCode <= 90) || event.key === 'Backspace' || event.key === ' ') {
-    //console.log(event.target.value);
-    fetch(event.target.value,(data)=>{
-        console.log(data)
-    })
+// handling search input POST requests
+searchiput.addEventListener('keyup', (event) => { // listen to any keystroke (letters,enter key,backspace key) events
+  if ((event.target.value * 1 === 0)) { // don't send request if the input is empty.
+    suggestionsList.setAttribute('style', 'display:none;');
+    // send requests only if the pressed key is letter or enter key or bakcspace
+  } else if (((event.keyCode >= 65 && event.keyCode <= 90) || event.key === 'Backspace' || event.key === ' ')) {
+    const dataTosend = `${event.target.getAttribute('name')}=${event.target.value.trim()}`;
+    fetch('POST', '/suggestions', renderSuggestionsList, dataTosend);
   }
 });
