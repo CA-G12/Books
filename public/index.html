@@ -6,7 +6,7 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="./style.css" />
+  <link rel="stylesheet" href="./landing/style.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
   <title>Book</title>
 </head>
@@ -15,11 +15,11 @@
   <main>
     <section>
       <h1>BOOK</h1>
-      <form autocomplete="oaff" method="post" action="/getDetailes">
+      <form autocomplete="oaff" method="post" action="" >
         <div id="searchDiv">
           <div class="search-box">
             <input autocomplete="faslse" type="text" name="search-Book" id="searchiput" placeholder="Enter book title"/>
-            <button><i class="fa-solid fa-magnifying-glass"></i></button>
+            <button id="searchSup"><i class="fa-solid fa-magnifying-glass"></i></button>
           </div>
           <ul class="suggestions" role="listbox">
            
@@ -27,10 +27,10 @@
         </div>
       </form>
     </section>
-  </main>
+  </main> 
+   <script src="./fetch.js"></script>
   <script src="./Dom.js"></script>
-  <script src="./fetch.js"></script>
-  <script src="./main.js"></script>
+  <script src="./landing/main.js"></script>
 </body>
 </html>
 

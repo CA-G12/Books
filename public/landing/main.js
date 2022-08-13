@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 // handling search input POST requests
 searchiput.addEventListener('keyup', (event) => { // listen to any keystroke (letters,enter key,backspace key) events
   if ((event.target.value * 1 === 0)) { // don't send request if the input is empty.
@@ -7,4 +8,12 @@ searchiput.addEventListener('keyup', (event) => { // listen to any keystroke (le
     const dataTosend = `${event.target.getAttribute('name')}=${event.target.value.trim()}`;
     fetch('POST', '/suggestions', renderSuggestionsList, dataTosend);
   }
+});
+
+const searchInput = document.getElementById('searchiput');
+const searchSub = document.getElementById('searchSup');
+
+searchSub.addEventListener('click', (event) => {
+  event.preventDefault();
+  window.location.href = `Books?q=${searchInput.value}`;
 });
