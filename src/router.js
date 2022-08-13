@@ -21,7 +21,6 @@ const router = (req, res) => {
         }
       });
     } else if ((endpoint.includes('mainBooks') || endpoint.includes('books'))) {
-      console.log('yaay');
       booksHandler(req, res, endpoint);
     } else {
       indexhandler(res, endpoint);
@@ -36,7 +35,7 @@ const router = (req, res) => {
         const searchParams = new URLSearchParams(allTheData);
 
         getList(searchParams.get('search-Book'), (arr) => {
-          if (!arr) {
+          if (!arr.length) {
             res.writeHead(500, { 'Content-Type': 'text/html' });
             res.end('No result found');
           } else {

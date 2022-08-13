@@ -33,7 +33,6 @@ const renderSuggestionsList = (data) => {
         const dataTosend = `${searchiput.getAttribute('name')}=${event.target.innerText}`;
 
         fetch('POST', '/getDetailes', () => {
-          // console.log('gotcha!')
         }, dataTosend);
       });
       suggestionsList.append(li);
