@@ -1,429 +1,163 @@
-[
-    {
-        "title": "Pride and Prejudice"
-    },
-   
-    {
-        "title": "To Kill a Mockingbird"
-    },
-    {
-        "title": "The Great Gatsby"
-    },
-    {
-        "title": "One Hundred Years of Solitude"
-    },
-    {
-        "title": "In Cold Blood"
-    },
-    {
-        "title": "Wide Sargasso Sea"
-    },
-    {
-        "title": "Brave New World"
-    },
-    {
-        "title": "I Capture The Castle"
-    },
-    {
-        "title": "Jane Eyre"
-    },
-    {
-        "title": "Crime and Punishment"
-    },
-    {
-        "title": "The Chrysalids"
-    },
-    {
-        "title": "The Adventures of Sherlock Holmes"
-    },
-    {
-        "title": "Alice's Adventures in Wonderland"
-    },
-    {
-        "title": "Persuasion"
-    },
-    {
-        "title": "Moby Dick; Or, The Whale"
-    },
-    {
-        "title": "Frankenstein; Or, The Modern Prometheus"
-    },
-    {
-        "title": "Dracula"
-    },
-    {
-        "title": "Ulysses"
-    },
-    {
-        "title": "The Picture of Dorian Gray"
-    },
-    {
-        "title": "A Tale of Two Cities"
-    },
-    {
-        "title": "The Yellow Wallpaper"
-    },
-    {
-        "title": "The Count of Monte Cristo, Illustrated"
-    },
-    {
-        "title": "War and Peace"
-    },
-    {
-        "title": "Crime and Punishment"
-    },
-    {
-        "title": "Grimms' Fairy Tales"
-    },
-    {
-        "title": "The Great Gatsby"
-    },
-    {
-        "title": "A Modest Proposal: For preventing the children of poor people in Ireland, from being a burden on their parents or country, and for making them beneficial to the publick"
-    },
-    {
-        "title": "The Iliad"
-    },
-    {
-        "title": "Great Expectations"
-    },
-    {
-        "title": "Metamorphosis"
-    },
-    {
-        "title": "Birds from North Borneo: University of Kansas Publications, Museum of Natural History, Volume 17, No. 8, pp. 377-433, October 27, 1966"
-    },
-    {
-        "title": "The Prince"
-    },
-    {
-        "title": "Japanese Girls and Women: Revised and Enlarged Edition"
-    },
-    {
-        "title": "The Strange Case of Dr. Jekyll and Mr. Hyde"
-    },
-    {
-        "title": "Life And Letters Of John Gay (1685-1732), Author of \"The Beggar's Opera\""
-    },
-    {
-        "title": "Jane Eyre: An Autobiography"
-    },
-    {
-        "title": "Adventures of Huckleberry Finn"
-    },
-    {
-        "title": "Anne of Green Gables"
-    },
-    {
-        "title": "The Adventures of Tom Sawyer, Complete"
-    },
-    {
-        "title": "Little Women"
-    },
-    {
-        "title": "Anna Karenina"
-    },
-    {
-        "title": "Old Granny Fox"
-    },
-    {
-        "title": "Things Fall Apart"
-    },
-    {
-        "title": "Fairy tales"
-    },
-    {
-        "title": "The Divine Comedy"
-    },
-    {
-        "title": "The Epic Of Gilgamesh"
-    },
-    {
-        "title": "The Book Of Job"
-    },
-    {
-        "title": "One Thousand and One Nights"
-    },
-    {
-        "title": "Njál's Saga"
-    },
-    {
-        "title": "Pride and Prejudice"
-    },
-    {
-        "title": "Le Père Goriot"
-    },
-    {
-        "title": "Molloy, Malone Dies, The Unnamable, the trilogy"
-    },
-    {
-        "title": "The Decameron"
-    },
-    {
-        "title": "Ficciones"
-    },
-    {
-        "title": "Wuthering Heights"
-    },
-    {
-        "title": "The Stranger"
-    },
-    {
-        "title": "Poems"
-    },
-    {
-        "title": "Journey to the End of the Night"
-    },
-    {
-        "title": "Don Quijote De La Mancha"
-    },
-    {
-        "title": "The Canterbury Tales"
-    },
-    {
-        "title": "Stories"
-    },
-    {
-        "title": "Nostromo"
-    },
-    {
-        "title": "Great Expectations"
-    },
-    {
-        "title": "Jacques the Fatalist"
-    },
-    {
-        "title": "Berlin Alexanderplatz"
-    },
-    {
-        "title": "Crime and Punishment"
-    },
-    {
-        "title": "The Idiot"
-    },
-    {
-        "title": "The Possessed"
-    },
-    {
-        "title": "The Brothers Karamazov"
-    },
-    {
-        "title": "Middlemarch"
-    },
-    {
-        "title": "Invisible Man"
-    },
-    {
-        "title": "Medea"
-    },
-    {
-        "title": "Absalom, Absalom!"
-    },
-    {
-        "title": "The Sound and the Fury"
-    },
-    {
-        "title": "Madame Bovary"
-    },
-    {
-        "title": "Sentimental Education"
-    },
-    {
-        "title": "Gypsy Ballads"
-    },
-    {
-        "title": "One Hundred Years of Solitude"
-    },
-    {
-        "title": "Love in the Time of Cholera"
-    },
-    {
-        "title": "Faust"
-    },
-    {
-        "title": "Dead Souls"
-    },
-    {
-        "title": "The Tin Drum"
-    },
-    {
-        "title": "The Devil to Pay in the Backlands"
-    },
-    {
-        "title": "Hunger"
-    },
-    {
-        "title": "The Old Man and the Sea"
-    },
-    {
-        "title": "Iliad"
-    },
-    {
-        "title": "Odyssey"
-    },
-    {
-        "title": "A Doll's House"
-    },
-    {
-        "title": "Ulysses"
-    },
-    {
-        "title": "Stories"
-    },
-    {
-        "title": "The Trial"
-    },
-    {
-        "title": "The Castle"
-    },
-    {
-        "title": "The recognition of Shakuntala"
-    },
-    {
-        "title": "The Sound of the Mountain"
-    },
-    {
-        "title": "Zorba the Greek"
-    },
-    {
-        "title": "Sons and Lovers"
-    },
-    {
-        "title": "Independent People"
-    },
-    {
-        "title": "Poems"
-    },
-    {
-        "title": "The Golden Notebook"
-    },
-    {
-        "title": "Pippi Longstocking"
-    },
-    {
-        "title": "Diary of a Madman"
-    },
-    {
-        "title": "Children of Gebelawi"
-    },
-    {
-        "title": "Buddenbrooks"
-    },
-    {
-        "title": "The Magic Mountain"
-    },
-    {
-        "title": "Moby Dick"
-    },
-    {
-        "title": "Essays"
-    },
-    {
-        "title": "History"
-    },
-    {
-        "title": "Beloved"
-    },
-    {
-        "title": "The Tale of Genji"
-    },
-    {
-        "title": "The Man Without Qualities"
-    },
-    {
-        "title": "Lolita"
-    },
-    {
-        "title": "Nineteen Eighty-Four"
-    },
-    {
-        "title": "Metamorphoses"
-    },
-    {
-        "title": "The Book of Disquiet"
-    },
-    {
-        "title": "Tales"
-    },
-    {
-        "title": "In Search of Lost Time"
-    },
-    {
-        "title": "Gargantua and Pantagruel"
-    },
-    {
-        "title": "Pedro Páramo"
-    },
-    {
-        "title": "The Masnavi"
-    },
-    {
-        "title": "Midnight's Children"
-    },
-    {
-        "title": "Bostan"
-    },
-    {
-        "title": "Season of Migration to the North"
-    },
-    {
-        "title": "Blindness"
-    },
-    {
-        "title": "Hamlet"
-    },
-    {
-        "title": "King Lear"
-    },
-    {
-        "title": "Othello"
-    },
-    {
-        "title": "Oedipus the King"
-    },
-    {
-        "title": "The Red and the Black"
-    },
-    {
-        "title": "The Life And Opinions of Tristram Shandy"
-    },
-    {
-        "title": "Confessions of Zeno"
-    },
-    {
-        "title": "Gulliver's Travels"
-    },
-    {
-        "title": "War and Peace"
-    },
-    {
-        "title": "Anna Karenina"
-    },
-    {
-        "title": "The Death of Ivan Ilyich"
-    },
-    {
-        "title": "The Adventures of Huckleberry Finn"
-    },
-    {
-        "title": "Ramayana"
-    },
-    {
-        "title": "The Aeneid"
-    },
-    {
-        "title": "Mahabharata"
-    },
-    {
-        "title": "Leaves of Grass"
-    },
-    {
-        "title": "Mrs Dalloway"
-    },
-    {
-        "title": "To the Lighthouse"
-    },
-    {
-        "title": "Memoirs of Hadrian"
-    }
-]
+
+{
+    "p": [
+        "Persuasion",
+        "Pride and Prejudice",
+        "Poems",
+        "Poems",
+        "Pippi Longstocking",
+        "Pedro Páramo"
+    ],
+    "t": [
+        "The Great Gatsby",
+        "The Chrysalids",
+        "The Adventures of Sherlock Holmes",
+        "The Picture of Dorian Gray",
+        "The Yellow Wallpaper",
+        "The Count of Monte Cristo, Illustrated",
+        "The Great Gatsby",
+        "The Iliad",
+        "The Prince",
+        "The Strange Case of Dr. Jekyll and Mr. Hyde",
+        "The Adventures of Tom Sawyer, Complete",
+        "Things Fall Apart",
+        "The Divine Comedy",
+        "The Epic Of Gilgamesh",
+        "The Book Of Job",
+        "The Decameron",
+        "The Stranger",
+        "The Canterbury Tales",
+        "The Idiot",
+        "The Possessed",
+        "The Brothers Karamazov",
+        "The Sound and the Fury",
+        "The Tin Drum",
+        "The Devil to Pay in the Backlands",
+        "The Old Man and the Sea",
+        "The Trial",
+        "The Castle",
+        "The recognition of Shakuntala",
+        "The Sound of the Mountain",
+        "The Golden Notebook",
+        "The Magic Mountain",
+        "The Tale of Genji",
+        "The Man Without Qualities",
+        "The Book of Disquiet",
+        "Tales",
+        "The Masnavi",
+        "The Red and the Black",
+        "The Life And Opinions of Tristram Shandy",
+        "The Death of Ivan Ilyich",
+        "The Adventures of Huckleberry Finn",
+        "The Aeneid",
+        "To the Lighthouse"
+    ],
+    "o": [
+        "Old Granny Fox",
+        "One Thousand and One Nights",
+        "One Hundred Years of Solitude",
+        "Odyssey",
+        "Othello",
+        "Oedipus the King"
+    ],
+    "i": [
+        "I Capture The Castle",
+        "Invisible Man",
+        "Iliad",
+        "Independent People",
+        "In Search of Lost Time"
+    ],
+    "w": [
+        "War and Peace",
+        "Wuthering Heights",
+        "War and Peace"
+    ],
+    "b": [
+        "Birds from North Borneo: University of Kansas Publications, Museum of Natural History, Volume 17, No. 8, pp. 377-433, October 27, 1966",
+        "Berlin Alexanderplatz",
+        "Buddenbrooks",
+        "Beloved",
+        "Bostan",
+        "Blindness"
+    ],
+    "j": [
+        "Japanese Girls and Women: Revised and Enlarged Edition",
+        "Jane Eyre: An Autobiography",
+        "Journey to the End of the Night",
+        "Jacques the Fatalist"
+    ],
+    "c": [
+        "Crime and Punishment",
+        "Crime and Punishment",
+        "Children of Gebelawi",
+        "Confessions of Zeno"
+    ],
+    "a": [
+        "A Tale of Two Cities",
+        "A Modest Proposal: For preventing the children of poor people in Ireland, from being a burden on their parents or country, and for making them beneficial to the publick",
+        "Adventures of Huckleberry Finn",
+        "Anne of Green Gables",
+        "Anna Karenina",
+        "Absalom, Absalom!",
+        "A Doll's House",
+        "Anna Karenina"
+    ],
+    "m": [
+        "Metamorphosis",
+        "Molloy, Malone Dies, The Unnamable, the trilogy",
+        "Middlemarch",
+        "Medea",
+        "Madame Bovary",
+        "Moby Dick",
+        "Metamorphoses",
+        "Midnight's Children",
+        "Mahabharata",
+        "Mrs Dalloway",
+        "Memoirs of Hadrian"
+    ],
+    "f": [
+        "Fairy tales",
+        "Ficciones",
+        "Faust"
+    ],
+    "d": [
+        "Don Quijote De La Mancha",
+        "Dead Souls",
+        "Diary of a Madman"
+    ],
+    "u": [
+        "Ulysses"
+    ],
+    "g": [
+        "Great Expectations",
+        "Great Expectations",
+        "Gypsy Ballads",
+        "Gargantua and Pantagruel",
+        "Gulliver's Travels"
+    ],
+    "l": [
+        "Little Women",
+        "Le Père Goriot",
+        "Love in the Time of Cholera",
+        "Lolita",
+        "Leaves of Grass"
+    ],
+    "n": [
+        "Nostromo",
+        "Nineteen Eighty-Four"
+    ],
+    "s": [
+        "Sentimental Education",
+        "Stories",
+        "Sons and Lovers",
+        "Season of Migration to the North"
+    ],
+    "h": [
+        "History",
+        "Hamlet"
+    ],
+    "z": [],
+    "e": [],
+    "k": [],
+    "r": []
+}
