@@ -8,7 +8,7 @@ html {
   font-size: 62.5%;
 }
 body {
-  background-image: url("../../assert/img/background.jpg");
+  background-image: url("./background.jpg");
   object-fit: contain;
   background-size: cover;
   width: 100%;
@@ -16,10 +16,11 @@ body {
 h1 {
   font-size: 6.5em;
   text-align: center;
-  color: white;
+  color: #d9c7c7;
   letter-spacing: 0.4em;
   margin-top: 10%;
   font-family: "Cairo", sans-serif;
+  text-shadow: 0 0 20px #0a0909, 0 0 5px #000000;
 }
 #searchiput {
   width: 40%;
