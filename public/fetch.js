@@ -9,10 +9,7 @@ const fetch = (method, endPoint, cb, dataToSend) => {
           cb(data);
         }
       } else {
-        if (typeof (cb) === 'function') {
-          cb(xhr.status);
-        }
-        
+        cb(xhr.status);
       }
     }
   };
